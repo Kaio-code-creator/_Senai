@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <propertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsing>enable</ImplicitUsing>
+        <Nullable>disable</Nullable>
+    </PropertyGroup>
+
+</Project>
