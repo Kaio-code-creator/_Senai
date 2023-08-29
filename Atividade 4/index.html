@@ -9,8 +9,8 @@
       font-family: Arial, sans-serif;
       margin: 20px;
     }
-    h1 {
-      text-align: center;
+    h1, h2, h3, h4, p, ul, li, table, th, td {
+      margin-bottom: 10px;
     }
     table {
       border-collapse: collapse;
@@ -25,7 +25,7 @@
 </head>
 <body>
   <h1>Especificação de Requisitos de Software (SRS)</h1>
-  <h2>para o Sistema de Gestão de Clínicas Veterinárias da Balti</h2>
+  <h2>Sistema de Gestão de Clínicas Veterinárias - Balti</h2>
   <h3>Versão: 1.0</h3>
 
   <h4>Histórico de Versões</h4>
@@ -38,14 +38,86 @@
     </tr>
     <tr>
       <td>1.0</td>
-      <td>28/08/2023</td>
-      <td>Kaio alves de sousa</td>
+      <td>28/03/2023</td>
+      <td>Kaio Alves de Sousa</td>
       <td>Versão inicial</td>
     </tr>
   </table>
 
-  <h4>1. Introdução</h4>
-  <p>A Especificação de Requisitos de Software (SRS) define os requisitos detalhados para o desenvolvimento do Sistema de Gestão de Clínicas Veterinárias da empresa Balti. O objetivo deste documento é fornecer uma visão abrangente das funcionalidades, características e restrições do sistema a ser desenvolvido.</p>
+  <h2>1. Introdução</h2>
+  <p>A Especificação de Requisitos de Software (SRS) define os requisitos detalhados para o desenvolvimento do Sistema de Gestão de Clínicas Veterinárias da empresa Balti. Este documento proporciona uma visão abrangente das funcionalidades, características e restrições do sistema proposto.</p>
 
-  <h4>2. Objetivos</h4>
-  <p>O Sistema de Gestão de Clínicas Veterinárias tem como objetivo principal otimizar e automatizar processos relacionados à gestão de clínicas veterinárias. Ele visa oferecer soluções eficientes para o agendamento de consultas, registro de pacientes e seus proprietários, gestão de procedimentos médicos, controle de estoque e faturamento.</p>
+  <h2>2. Objetivos</h2>
+  <p>O Sistema de Gestão de Clínicas Veterinárias tem como objetivo aprimorar a eficiência e automatizar os processos relacionados à gestão de clínicas veterinárias. Ele visa oferecer soluções eficazes para o agendamento de consultas, registro de pacientes e proprietários, gestão de procedimentos médicos, controle de estoque e faturamento.</p>
+
+  <h2>3. Escopo do Projeto</h2>
+  <p>O sistema abrangerá as seguintes funcionalidades principais:</p>
+  <ul>
+    <li>Cadastro de Pacientes e Proprietários</li>
+    <li>Agendamento de Consultas e Procedimentos</li>
+    <li>Registro de Diagnósticos e Tratamentos</li>
+    <li>Controle de Estoque de Medicamentos e Produtos</li>
+    <li>Faturamento e Emissão de Notas Fiscais</li>
+  </ul>
+
+  <h2>4. Requisitos Funcionais</h2>
+  <h3>4.1 Cadastro de Pacientes e Proprietários</h3>
+  <p>O sistema permitirá o cadastro de informações detalhadas sobre pacientes e seus proprietários, incluindo nome, espécie, raça, data de nascimento, histórico médico e informações de contato.</p>
+
+  <h2>5. Requisitos de Performance</h2>
+  <h3>5.1 Características de Desempenho</h3>
+  <p>As características de desempenho do sistema serão descritas nesta seção:</p>
+  <ul>
+    <li>Tempo de resposta de uma transação (médio, máximo)</li>
+    <li>Taxa de transferência</li>
+    <li>Capacidade</li>
+    <li>Modos de degradação</li>
+    <li>A utilização de recursos</li>
+  </ul>
+
+  <h3>5.2 Requisito de Desempenho Um</h3>
+  <p>A descrição do requisito de desempenho será feita aqui.</p>
+  <h2>6. Atributos do Sistema de Software (Opcional)</h2>
+  <h3>6.1 Restrições do Design</h3>
+  <p>Esta seção indica todas as restrições de design referentes ao sistema que está sendo criado.</p>
+  <p>&lt;Restrição de Design Um&gt;<br>Descrição do requisito.</p>
+
+  <h2>7. Interfaces</h2>
+  <h3>7.1 Interface de Usuário</h3>
+  <p>Ao fazer login na plataforma, os usuários são recebidos pelo painel de controle principal, onde podem visualizar informações essenciais, como resumo de agendamentos do dia, pacientes atuais e alertas críticos.</p>
+  
+  <h3>7.2 Interfaces de Hardware</h3>
+  <p>Esta seção define todas as interfaces de hardware que devem ser suportadas pelo software, incluindo a estrutura lógica, os endereços físicos, o comportamento esperado, etc.</p>
+  
+  <h3>7.3 Interfaces de Software</h3>
+  <p>Esta seção descreve as interfaces de software com outros componentes do sistema de software.</p>
+  
+  <h3>7.4 Interfaces de Comunicação</h3>
+  <p>Descrição de todas as interfaces de comunicação com outros sistemas ou dispositivos.</p>
+
+  <h2>8. Conclusão</h2>
+  <p>Este documento proporcionou uma visão abrangente dos requisitos de software para o Sistema de Gestão de Clínicas Veterinárias da empresa Balti. Quaisquer alterações futuras neste documento serão refletidas através de revisões e aprovações conforme os procedimentos estabelecidos.</p>
+
+  <h2>9. Aprovações</h2>
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>Cargo</th>
+      <th>Assinatura</th>
+      <th>Data</th>
+    </tr>
+    <tr>
+      <td>Nome do Revisor</td>
+      <td>Revisor Técnico</td>
+      <td>Assinatura</td>
+      <td>28/08/2023</td>
+    </tr>
+    <tr>
+      <td>Nome do Aprovador</td>
+      <td>Aprovador do Projeto</td>
+      <td>[Assinatura]</td>
+      <td>DD/MM/AAAA</td>
+    </tr>
+  </table>
+</body>
+</html>
